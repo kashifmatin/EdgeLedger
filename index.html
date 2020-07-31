@@ -194,7 +194,7 @@
                     </div> -->
                     <div class="column">
                         <!-- google map share embed -->
-                        <iframe class="img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.9034046249767!2d-95.36990604911283!3d29.751508639217437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf3e75f13859%3A0x10b2bea4bc857bec!2sHouston%20House%20Apartments!5e0!3m2!1sen!2sus!4v1596185887134!5m2!1sen!2sus"
+                        <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.9034046249767!2d-95.36990604911283!3d29.751508639217437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf3e75f13859%3A0x10b2bea4bc857bec!2sHouston%20House%20Apartments!5e0!3m2!1sen!2sus!4v1596185887134!5m2!1sen!2sus"
                             width="" height="" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
@@ -246,29 +246,6 @@
     <!-- lightbox2 -->
 
     <script src="js/lightbox.min.js"></script>
-
-    <script>
-        // add transparency on navbar until 100 px and then reverts the transparency after 100 px
-
-        const navbar = document.getElementById('navbar');
-        let scroll = false;
-
-        window.onscroll = function() {
-            if (window.pageYOffset > 100) {
-                navbar.classList.remove('top');
-                if (!scrolled) {
-                    navbar.style.transform = 'translateY(-70px)';
-                }
-                setTimeout(function() {
-                    navbar.style.transform = 'translateY(0)';
-                    scrolled = true;
-                }, 200);
-            } else {
-                navbar.classList.add('top');
-                scrolled = false;
-            }
-        };
-    </script>
 
 </body>
 
