@@ -313,4 +313,7 @@ html {
     .team img {
         width: 70%;
     }
+      .flexcolumns .iframe {
+        height: 400px;
+    }
 }
